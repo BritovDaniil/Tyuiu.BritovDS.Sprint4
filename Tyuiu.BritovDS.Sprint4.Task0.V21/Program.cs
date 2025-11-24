@@ -7,13 +7,13 @@ class Program
     static void Main(string[] args)
     {
         DataService ds = new DataService();
-        Console.Title = "Спринт #4 | Выполнил: Ротач. А. О. | ИИПб-24-1";
+        Console.Title = "Спринт #4 | Выполнил: Бритов Д. С. | ИСПб-25-1";
         Console.WriteLine("************************************************************************");
         Console.WriteLine("* Спринт #4                                                            *");
         Console.WriteLine("* Тема:                                                                *");
         Console.WriteLine("* Задание #0                                                           *");
         Console.WriteLine("* Вариант #21                                                          *");
-        Console.WriteLine("* Выполнил: Ротач Анастасия Олеговна  | ИИПб-24-1                      *");
+        Console.WriteLine("* Выполнил: Бритов Д. С. | ИСПб-25-1                                   *");
         Console.WriteLine("************************************************************************");
         Console.WriteLine("* УСЛОВИЕ:                                                             *");
         Console.WriteLine("*                                                                      *");
