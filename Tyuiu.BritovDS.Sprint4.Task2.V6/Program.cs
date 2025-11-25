@@ -8,14 +8,14 @@ namespace Tyuiu.BritovDS.Sprint4.Task2.V6
             Random rnd = new Random();
             DataService ds = new DataService();
 
-            Console.Title = "Спринт #4 | Выполнила: Бритов Д. С. | ИСПб-25-1";
+            Console.Title = "Спринт #4 | Выполнил: Бритов Д. С. | ИСПб-25-1";
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #4                                                               *");
             Console.WriteLine("* Тема: Одномерные массивы (генератор случайных чисел)                    *");
             Console.WriteLine("* Задание #2                                                              *");
             Console.WriteLine("* Вариант #6                                                              *");
-            Console.WriteLine("* Выполнила: Бритов Д. С. | ИСПб-25-1                                     *");
+            Console.WriteLine("* Выполнил: Бритов Д. С. | ИСПб-25-1                                     *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Дан одномерный целочисленный массив на 15 элементов заполненный         *");
