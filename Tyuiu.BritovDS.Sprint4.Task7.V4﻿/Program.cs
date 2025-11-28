@@ -8,13 +8,13 @@ namespace Tyuiu.BritovDS.Sprint4.Task7.V4
         {
             DataService dataService = new DataService();
 
-            Console.Title = "Спринт #4 | Выполнил: Кукарский С.А. | ИИПб-24-1";
+            Console.Title = "Спринт #4 | Выполнил: Бритов Д. С. | ИСПб-25-1";
             Console.WriteLine("************************************************************************");
             Console.WriteLine("* Спринт #4                                                            *");
             Console.WriteLine("* Тема: Добавление к решению итоговых проектов по спринту              *");
             Console.WriteLine("* Задание #7                                                           *");
             Console.WriteLine("* Вариант #4                                                           *");
-            Console.WriteLine("* Выполнил Кукарский Сергей Андреевич | ИИПб-24-1                      *");
+            Console.WriteLine("* Выполнил Бритов Д. С. | ИСПб-25-1                                    *");
             Console.WriteLine("************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                             *");
             Console.WriteLine("* Дана строка из одноразрядных цифр. Преобразуйте ее в матрицу 3 на 4  *");
