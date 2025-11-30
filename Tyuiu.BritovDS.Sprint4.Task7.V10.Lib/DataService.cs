@@ -1,36 +1,32 @@
 ﻿using tyuiu.cources.programming.interfaces.Sprint4;
 
-namespace Tyuiu.BritovDS.Sprint4.Task7.V4.Lib
+namespace Tyuiu.BritovDS.Sprint4.Task7.V10.Lib
 {
-    public class DataService : ISprint4Task7V4
+    public class DataService : ISprint4Task7V10
     {
         public int Calculate(int n, int m, string value)
         {
-            int[,] matrix = new int[n, m];
-            int index = 0;
-
+            int[,] mtrx = new int[n, m];
             for (int i = 0; i < n; i++)
             {
                 for (int j = 0; j < m; j++)
                 {
-                    matrix[i, j] = value[index] - '0';
-                    index++;
+                    mtrx[i, j] = int.Parse(value.Substring(i * m + j, 1));
+
                 }
             }
-
             int sum = 0;
-
             for (int i = 0; i < n; i++)
             {
                 for (int j = 0; j < m; j++)
                 {
-                    if (matrix[i, j] % 2 != 0)
+                    if (mtrx[i, j] % 2 != 0)
                     {
-                        sum += matrix[i, j];
+                        sum += mtrx[i, j];
                     }
+
                 }
             }
-
             return sum;
         }
     }
